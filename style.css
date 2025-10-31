@@ -1,0 +1,167 @@
+/* === RESET GENERAL === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* === ESTILO GLOBAL === */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0a0a0a, #001f3f);
+    color: #e0e0e0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #001a33;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 3px solid #0a84ff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header .frase {
+    font-style: italic;
+    color: #a7c7e7;
+}
+
+/* === NAV === */
+nav {
+    background-color: #000814;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 24px;
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #0a84ff;
+    color: white;
+}
+
+/* === CONTENIDO === */
+main {
+    flex: 1;
+    padding: 30px;
+    background-color: #0b0c10;
+    min-height: calc(100vh - 160px);
+}
+
+.content-card {
+    background-color: #101820;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.content-card h2 {
+    color: #0a84ff;
+    margin-bottom: 15px;
+}
+
+h3, h4, h5 {
+    color: #87cefa;
+}
+
+/* === SUBTABS === */
+.subtabs {
+    margin: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.subtabs button {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    border: 1px solid #0a84ff;
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.subtabs button:hover {
+    background-color: #0a84ff;
+    color: white;
+}
+
+.subcontent {
+    display: none;
+    background-color: #141a20;
+    padding: 20px;
+    border-radius: 5px;
+    border-left: 4px solid #0a84ff;
+}
+
+/* === FOOTER === */
+footer {
+    background-color: #000814;
+    color: #b0b0b0;
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid #0a84ff;
+}
+
+/* ---- CARTA ÚNICA DE PORTADA ---- */
+.card-portada {
+    max-width: 400px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-portada:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.card-portada img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-portada .card-content {
+    padding: 20px;
+}
+
+.card-portada h3 {
+    margin: 10px 0;
+    color: #333;
+    font-size: 1.3em;
+}
+
+.card-portada p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.5;
+}

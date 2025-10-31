@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Ético</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Proyecto Ético</h1>
+        <p class="frase">“Vive con propósito, actúa con integridad.”</p>
+        <h3>Por: WILLIAMS DANIEL YOS MELGAR</h3>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" class="tablink active" onclick="openSection(event, 'inicio')">Portada</a></li>
+            <li><a href="#" class="tablink" onclick="openSection(event, 'introduccion')">Introducción</a></li>
+            <li><a href="#" class="tablink" onclick="openSection(event, 'principios')">Principios</a></li>
+            <li><a href="#" class="tablink" onclick="openSection(event, 'votos')">Los 7 votos</a></li>
+            <li><a href="#" class="tablink" onclick="openSection(event, 'reflexiones')">Reflexiones</a></li>
+            <li><a href="#" class="tablink" onclick="openSection(event, 'discurso')">Discurso final</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- PORTADA -->
+        <section id="inicio" class="tabcontent">
+            <div class="content-card">
+                <h2>Proyecto Ético</h2>
+                <p><strong>Autor:</strong> WILLIAMS DANIEL YOS MELGAR</p>
+                <p><strong>Lema personal:</strong> “Cada día es una oportunidad para ser mejor.”</p>
+            </div>
+
+            <!-- UNA SOLA CARTA CON IMAGEN -->
+            <div class="card-portada">
+                <img src="libros.jpeg" alt="Imagen del Proyecto Ético">
+                <div class="card-content">
+                    <h3>Vive con propósito</h3>
+                    <p>La ética guía nuestras acciones y da sentido a cada decisión que tomamos en la vida.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- INTRODUCCIÓN -->
+        <section id="introduccion" class="tabcontent">
+            <div class="content-card">
+                <h2>Introducción</h2>
+                <p>El presente proyecto ético tiene como propósito analizar y reflexionar sobre los valores, principios
+                    y dilemas morales que influyen en la toma de decisiones dentro de distintos ámbitos de la vida
+                    personal, profesional y social. A través de este trabajo, se busca fomentar una comprensión más
+                    profunda de la ética como una herramienta fundamental para la convivencia, la justicia y el
+                    bienestar común.</p>
+            </div>
+        </section>
+
+        <!-- PRINCIPIOS -->
+        <section id="principios" class="tabcontent">
+            <div class="content-card">
+                <h2>Principios para una vida plena</h2>
+
+                <div class="subtabs">
+                    <button onclick="openSubtab(event, 'comunicacion', 'principios')">Comunicación</button>
+                    <button onclick="openSubtab(event, 'comprender', 'principios')">Comprender</button>
+                    <button onclick="openSubtab(event, 'motivar', 'principios')">Motivar</button>
+                    <button onclick="openSubtab(event, 'justicia', 'principios')">Justicia</button>
+                    <button onclick="openSubtab(event, 'critica', 'principios')">Crítica</button>
+                    <button onclick="openSubtab(event, 'perdon', 'principios')">Perdón</button>
+                    <button onclick="openSubtab(event, 'confiar', 'principios')">Confiar en Dios</button>
+                    <button onclick="openSubtab(event, 'integridad', 'principios')">Integridad</button>
+                </div>
+
+                <div id="comunicacion" class="subcontent">
+                    <h3>Comunicación</h3>
+                    <p><strong>Definición:</strong> La comunicación es el proceso mediante el cual las personas
+                        intercambian ideas, emociones e información de manera clara, respetuosa y empática para lograr
+                        comprensión mutua y fortalecer las relaciones humanas.</p>
+                    <p><strong>Fecha:</strong> 28 de octubre de 2025</p>
+                    <p><strong>Entorno:</strong> Laboral</p>
+
+                    <h4>Situación específica</h4>
+                    <p>Durante una reunión de equipo, surgió un malentendido respecto a las responsabilidades de un
+                        proyecto. En lugar de reaccionar impulsivamente, decidí escuchar activamente a mis compañeros,
+                        expresar mis ideas con claridad y buscar un punto de acuerdo que beneficiara a todos.</p>
+
+                    <h4>Reflexión Ética</h4>
+                    <p>Aprendí que la comunicación ética implica no solo hablar, sino también escuchar con empatía y
+                        respeto. Sentí satisfacción al ver que la conversación fluyó de manera constructiva, aunque al
+                        principio me resultó difícil mantener la calma. Esta experiencia me ayudó a comprender la
+                        importancia del diálogo honesto y la confianza en las relaciones laborales.</p>
+
+                    <h4>Impacto</h4>
+                    <p>La comunicación abierta permitió resolver el conflicto y mejorar el ambiente del equipo. A partir
+                        de ese momento, las reuniones se desarrollaron con mayor participación y transparencia,
+                        fortaleciendo la colaboración entre los miembros.</p>
+
+                    <h4>Compromiso a futuro</h4>
+                    <p>Me comprometo a seguir cultivando una comunicación asertiva y empática, buscando siempre
+                        comprender antes de responder. También procuraré crear espacios de diálogo donde todos puedan
+                        expresar sus opiniones libremente.</p>
+
+                    <h4>Frase de compromiso final</h4>
+                    <p><em>“Comunicar con respeto es construir puentes que fortalecen la confianza y la
+                            comprensión.”</em></p>
+                </div>
+
+                <!-- COMPRENDER -->
+                <div id="comprender" class="subcontent">
+                    <h3>Comprender</h3>
+                    <p><strong>Definición:</strong> Comprender significa esforzarse por ponerse en el lugar del otro,
+                        interpretar sus emociones, pensamientos y circunstancias para generar empatía y relaciones más
+                        humanas.</p>
+                    <p><strong>Fecha:</strong> 29 de octubre de 2025</p>
+                    <p><strong>Entorno:</strong> Familiar</p>
+
+                    <h4>Situación específica</h4>
+                    <p>Un miembro de mi familia se mostró distante y malhumorado. En lugar de juzgarlo, decidí
+                        escucharlo con atención y descubrir que estaba pasando por un momento de estrés laboral. Esa
+                        conversación permitió que se sintiera comprendido y apoyado.</p>
+
+                    <h4>Reflexión Ética</h4>
+                    <p>Aprendí que comprender a los demás requiere paciencia, empatía y silencio. Sentí satisfacción al
+                        ver que mi actitud ayudó a mejorar nuestra relación y a fortalecer la confianza familiar.</p>
+
+                    <h4>Impacto</h4>
+                    <p>La comprensión redujo tensiones y generó un ambiente más armonioso en casa. Nos unimos más y
+                        aprendimos a apoyarnos emocionalmente.</p>
+
+                    <h4>Compromiso a futuro</h4>
+                    <p>Me comprometo a practicar la escucha activa y no apresurarme a juzgar. Quiero seguir entendiendo
+                        las situaciones desde la perspectiva del otro antes de responder.</p>
+
+                    <h4>Frase de compromiso final</h4>
+                    <p><em>“Comprender es abrir el corazón antes que la boca.”</em></p>
+                </div>
+
+                <!-- MOTIVAR -->
+                <div id="motivar" class="subcontent">
+                    <h3>Motivar</h3>
+                    <p><strong>Definición:</strong> Motivar es inspirar a los demás para que descubran su potencial,
+                        mantengan una actitud positiva y se esfuercen por alcanzar sus metas personales y colectivas.
+                    </p>
+                    <p><strong>Fecha:</strong> 30 de octubre de 2025</p>
+                    <p><strong>Entorno:</strong> Laboral</p>
+
+                    <h4>Situación específica</h4>
+                    <p>Un compañero de trabajo se sentía desanimado por no obtener los resultados esperados. Le recordé
+                        sus logros y lo animé a seguir intentando, ofreciéndole ayuda para mejorar su desempeño.</p>
+
+                    <h4>Reflexión Ética</h4>
+                    <p>Entendí que motivar no es solo animar con palabras, sino acompañar con acciones. Sentí alegría al
+                        ver que mi apoyo lo impulsó a recuperar su confianza.</p>
+
+                    <h4>Impacto</h4>
+                    <p>El ambiente laboral mejoró y el equipo comenzó a trabajar con más entusiasmo. La colaboración y
+                        la energía positiva se hicieron más evidentes.</p>
+
+                    <h4>Compromiso a futuro</h4>
+                    <p>Seguiré fomentando la motivación en mi entorno, reconociendo los esfuerzos de los demás y
+                        celebrando sus avances.</p>
+
+                    <h4>Frase de compromiso final</h4>
+                    <p><em>“Motivar es encender la chispa que ayuda a otros a brillar.”</em></p>
+                </div>
+
+                <!-- JUSTICIA -->
+                <div id="justicia" class="subcontent">
+                    <h3>Justicia</h3>
+                    <p><strong>Definición:</strong> La justicia consiste en actuar con equidad, dando a cada persona lo
+                        que le corresponde y defendiendo los derechos de todos por igual.</p>
+                    <p><strong>Fecha:</strong> 31 de octubre de 2025</p>
+                    <p><strong>Entorno:</strong> Escolar</p>
+
+                    <h4>Situación específica</h4>
+                    <p>Durante una actividad grupal, noté que uno de los integrantes no recibía el mismo reconocimiento
+                        que los demás, a pesar de su esfuerzo. Propuse destacar su trabajo para que se valorara su
+                        aporte justo y equitativamente.</p>
+
+                    <h4>Reflexión Ética</h4>
+                    <p>Comprendí que la justicia no solo se trata de leyes, sino también de pequeñas acciones
+                        cotidianas. Sentí satisfacción al promover un trato más equilibrado y respetuoso.</p>
+
+                    <h4>Impacto</h4>
+                    <p>El grupo se sintió más unido y todos empezaron a valorar más el esfuerzo individual y colectivo.
+                    </p>
+
+                    <h4>Compromiso a futuro</h4>
+                    <p>Me comprometo a actuar siempre con imparcialidad y a defender lo correcto, aunque sea difícil.
+                    </p>
+
+                    <h4>Frase de compromiso final</h4>
+                    <p><em>“La justicia comienza cuando elegimos hacer lo correcto, incluso si nadie nos ve.”</em></p>
+                </div>
+
+                <!-- CRÍTICA -->
+                <div id="critica" class="subcontent">
+                    <h3>Crítica</h3>
+                    <p><strong>Definición:</strong> La crítica constructiva es la capacidad de expresar opiniones o
+                        juicios de manera respetuosa, con el fin de mejorar y no de dañar.</p>
+                    <p><strong>Fecha:</strong> 1 de noviembre de 2025</p>
+                    <p><strong>Entorno:</strong> Académico</p>
+
+                    <h4>Situación específica</h4>
+                    <p>En una exposición de clase, un compañero cometió varios errores. En lugar de burlarme, le ofrecí
+                        comentarios constructivos para que pudiera mejorar su presentación.</p>
+
+                    <h4>Reflexión Ética</h4>
+                    <p>Aprendí que criticar de forma ética requiere empatía y tacto. Me sentí bien al ayudarlo sin
+                        hacerlo sentir mal.</p>
+
+                    <h4>Impacto</h4>
+                    <p>Mi compañero agradeció mis sugerencias y mejoró notablemente en su siguiente exposición. La
+                        relación entre nosotros se fortaleció.</p>
+
+                    <h4>Compromiso a futuro</h4>
+                    <p>Continuaré ofreciendo críticas constructivas que aporten al crecimiento de los demás, evitando
+                        juicios negativos.</p>
+
+                    <h4>Frase de compromiso final</h4>
+                    <p><em>“La crítica que construye es la que nace del respeto y busca el bien común.”</em></p>
+                </div>
+
+                <!-- PERDÓN -->
+                <div id="perdon" class="subcontent">
+                    <h3>Perdón</h3>
+                    <p><strong>Definición:</strong> El perdón es la capacidad de liberar resentimientos, aceptar los
+                        errores y abrir el corazón para la reconciliación y la paz interior.</p>
+                    <p><strong>Fecha:</strong> 2 de noviembre de 2025</p>
+                    <p><strong>Entorno:</strong> Personal</p>
+
+                    <h4>Situación específica</h4>
+                    <p>Tuve un conflicto con un amigo por un malentendido. Después de reflexionar, decidí perdonarlo y
+                        hablar sinceramente sobre lo sucedido.</p>
+
+                    <h4>Reflexión Ética</h4>
+                    <p>Aprendí que perdonar no significa olvidar, sino sanar. Me sentí más libre y en paz después de
+                        hacerlo.</p>
+
+                    <h4>Impacto</h4>
+                    <p>La relación se fortaleció y ambos aprendimos a comunicarnos mejor para evitar futuros conflictos.
+                    </p>
+
+                    <h4>Compromiso a futuro</h4>
+                    <p>Seguiré practicando el perdón, recordando que la comprensión y el amor son más poderosos que el
+                        rencor.</p>
+
+                    <h4>Frase de compromiso final</h4>
+                    <p><em>“Perdonar es liberar el alma y abrir el camino a la paz.”</em></p>
+                </div>
+
+                <!-- CONFIAR EN DIOS -->
+                <div id="confiar" class="subcontent">
+                    <h3>Confiar en Dios</h3>
+                    <p><strong>Definición:</strong> Confiar en Dios significa poner nuestra fe en Su voluntad, creyendo
+                        que todo sucede por un propósito divino y que Su guía siempre nos conduce al bien.</p>
+                    <p><strong>Fecha:</strong> 3 de noviembre de 2025</p>
+                    <p><strong>Entorno:</strong> Espiritual</p>
+
+                    <h4>Situación específica</h4>
+                    <p>Pasé por un momento de incertidumbre y decidí dejar mis preocupaciones en manos de Dios,
+                        confiando en que me daría la fuerza y la sabiduría necesarias para superar la situación.</p>
+
+                    <h4>Reflexión Ética</h4>
+                    <p>Sentí paz al reconocer que no todo depende de mí. Comprendí que la fe es una fuente de serenidad
+                        y esperanza.</p>
+
+                    <h4>Impacto</h4>
+                    <p>Mi actitud cambió: en lugar de ansiedad, tuve confianza y calma. Otros notaron esa tranquilidad y
+                        se sintieron inspirados.</p>
+
+                    <h4>Compromiso a futuro</h4>
+                    <p>Me comprometo a mantener mi fe firme y a buscar la guía de Dios en cada decisión importante.</p>
+
+                    <h4>Frase de compromiso final</h4>
+                    <p><em>“Confiar en Dios es caminar con los ojos cerrados, pero con el corazón iluminado.”</em></p>
+                </div>
+
+                <!-- INTEGRIDAD -->
+                <div id="integridad" class="subcontent">
+                    <h3>Integridad</h3>
+                    <p><strong>Definición:</strong> La integridad es la coherencia entre lo que se piensa, se dice y se
+                        hace, guiada por la honestidad, la responsabilidad y el respeto hacia uno mismo y los demás.</p>
+                    <p><strong>Fecha:</strong> 4 de noviembre de 2025</p>
+                    <p><strong>Entorno:</strong> Profesional</p>
+
+                    <h4>Situación específica</h4>
+                    <p>Durante un proyecto laboral, tuve la oportunidad de aprovecharme de una situación, pero elegí
+                        actuar con honestidad y transparencia, priorizando los valores sobre el beneficio personal.</p>
+
+                    <h4>Reflexión Ética</h4>
+                    <p>Comprendí que la integridad se demuestra con acciones, incluso cuando nadie observa. Me sentí
+                        orgulloso de mantenerme fiel a mis principios.</p>
+
+                    <h4>Impacto</h4>
+                    <p>Mi decisión generó confianza y respeto entre mis compañeros, fortaleciendo la credibilidad del
+                        equipo.</p>
+
+                    <h4>Compromiso a futuro</h4>
+                    <p>Promoveré la honestidad en todas mis acciones y seré un ejemplo de coherencia y ética.</p>
+
+                    <h4>Frase de compromiso final</h4>
+                    <p><em>“La integridad no se dice, se demuestra en cada decisión.”</em></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- VOTOS -->
+        <section id="votos" class="tabcontent">
+            <div class="content-card">
+                <h2>Los 7 votos del éxito</h2>
+                <div class="subtabs">
+                    <button onclick="openSubtab(event, 'honestidad', 'votos')">Honestidad</button>
+                    <button onclick="openSubtab(event, 'generosidad', 'votos')">Generosidad</button>
+                    <button onclick="openSubtab(event, 'trabajo', 'votos')">Trabajo duro</button>
+                    <button onclick="openSubtab(event, 'humildad', 'votos')">Humildad</button>
+                    <button onclick="openSubtab(event, 'planificacion', 'votos')">Planificación efectiva</button>
+                    <button onclick="openSubtab(event, 'sentido', 'votos')">Sentido común</button>
+                    <button onclick="openSubtab(event, 'dominio', 'votos')">Dominio propio</button>
+                </div>
+
+                <!-- HONESTIDAD -->
+                <div id="honestidad" class="subcontent">
+                    <h3>Voto de Honestidad</h3>
+                    <p><strong>Propósito:</strong> Actuar con transparencia y sinceridad en todo momento, manteniendo la
+                        coherencia entre lo que pienso, digo y hago, sin permitir que el miedo o la conveniencia afecten
+                        mis valores.</p>
+
+                    <h4>Ámbitos de aplicación</h4>
+                    <h5>Personal</h5>
+                    <p>Ser honesto conmigo mismo, reconociendo mis errores y limitaciones, y comprometiéndome a mejorar
+                        sin engañarme.</p>
+
+                    <h5>Familiar</h5>
+                    <p>Practicar la sinceridad con mis seres queridos, expresando la verdad con respeto y fomentando la
+                        confianza mutua.</p>
+
+                    <h5>Laboral</h5>
+                    <p>Mantener la integridad en mis acciones y decisiones, evitando cualquier tipo de falsedad o
+                        manipulación en el trabajo.</p>
+
+                    <h4>Frase de compromiso final</h4>
+                    <p><em>“La honestidad no siempre es el camino más fácil, pero sí el más correcto.”</em></p>
+                </div>
+
+                <!-- GENEROSIDAD -->
+                <div id="generosidad" class="subcontent">
+                    <h3>Voto de Generosidad</h3>
+                    <p><strong>Propósito:</strong> Compartir con los demás mis recursos, tiempo y conocimientos sin
+                        esperar nada a cambio, promoviendo la solidaridad y el bienestar común.</p>
+
+                    <h4>Ámbitos de aplicación</h4>
+                    <h5>Personal</h5>
+                    <p>Ayudar a quienes lo necesiten, incluso con pequeños gestos, entendiendo que la verdadera riqueza
+                        está en dar.</p>
+
+                    <h5>Familiar</h5>
+                    <p>Mostrarme disponible para apoyar emocional y materialmente a mi familia, especialmente en los
+                        momentos difíciles.</p>
+
+                    <h5>Laboral</h5>
+                    <p>Compartir ideas, reconocer el trabajo de otros y cooperar en lugar de competir de forma egoísta.
+                    </p>
+
+                    <h4>Frase de compromiso final</h4>
+                    <p><em>“La generosidad multiplica lo que damos y transforma lo que somos.”</em></p>
+                </div>
+
+                <!-- TRABAJO DURO -->
+                <div id="trabajo" class="subcontent">
+                    <h3>Voto de Trabajo Duro</h3>
+                    <p><strong>Propósito:</strong> Esforzarme cada día con disciplina y perseverancia, dando lo mejor de
+                        mí en cada tarea para alcanzar metas con orgullo y responsabilidad.</p>
+
+                    <h4>Ámbitos de aplicación</h4>
+                    <h5>Personal</h5>
+                    <p>Mantener hábitos que fortalezcan mi constancia y autodisciplina, sin rendirme ante la dificultad.
+                    </p>
+
+                    <h5>Familiar</h5>
+                    <p>Contribuir al bienestar familiar cumpliendo mis responsabilidades y apoyando a quienes dependen
+                        de mí.</p>
+
+                    <h5>Laboral</h5>
+                    <p>Desempeñar mis funciones con compromiso, puntualidad y dedicación, buscando siempre la mejora
+                        continua.</p>
+
+                    <h4>Frase de compromiso final</h4>
+                    <p><em>“El esfuerzo constante transforma los sueños en logros.”</em></p>
+                </div>
+
+                <!-- HUMILDAD -->
+                <div id="humildad" class="subcontent">
+                    <h3>Voto de Humildad</h3>
+                    <p><strong>Propósito:</strong> Reconocer mis virtudes y defectos con sencillez, aprendiendo de los
+                        demás sin sentirme superior ni inferior a nadie.</p>
+
+                    <h4>Ámbitos de aplicación</h4>
+                    <h5>Personal</h5>
+                    <p>Aceptar mis errores y mantener una actitud abierta al aprendizaje y al cambio.</p>
+
+                    <h5>Familiar</h5>
+                    <p>Escuchar y valorar las opiniones de cada miembro de mi familia, sin imponer mis ideas.</p>
+
+                    <h5>Laboral</h5>
+                    <p>Trabajar con respeto y colaboración, reconociendo los méritos de los demás y agradeciendo la
+                        ayuda que recibo.</p>
+
+                    <h4>Frase de compromiso final</h4>
+                    <p><em>“La humildad no te hace menos, te hace más sabio y más humano.”</em></p>
+                </div>
+
+                <!-- PLANIFICACIÓN EFECTIVA -->
+                <div id="planificacion" class="subcontent">
+                    <h3>Voto de Planificación Efectiva</h3>
+                    <p><strong>Propósito:</strong> Organizar mi tiempo, recursos y objetivos de manera consciente y
+                        estratégica, para alcanzar resultados de calidad sin perder el equilibrio personal.</p>
+
+                    <h4>Ámbitos de aplicación</h4>
+                    <h5>Personal</h5>
+                    <p>Establecer metas realistas y administrar mi tiempo para cumplir con mis compromisos personales.
+                    </p>
+
+                    <h5>Familiar</h5>
+                    <p>Planificar actividades y responsabilidades familiares que fomenten la armonía y el orden en el
+                        hogar.</p>
+
+                    <h5>Laboral</h5>
+                    <p>Diseñar planes de acción claros y efectivos, priorizando tareas y evitando la improvisación.</p>
+
+                    <h4>Frase de compromiso final</h4>
+                    <p><em>“Planificar bien es el primer paso para lograr con éxito cualquier meta.”</em></p>
+                </div>
+
+                <!-- SENTIDO COMÚN -->
+                <div id="sentido" class="subcontent">
+                    <h3>Voto de Sentido Común</h3>
+                    <p><strong>Propósito:</strong> Aplicar la razón y la experiencia en la toma de decisiones, eligiendo
+                        siempre lo que sea más prudente, lógico y beneficioso para todos.</p>
+
+                    <h4>Ámbitos de aplicación</h4>
+                    <h5>Personal</h5>
+                    <p>Reflexionar antes de actuar, considerando las consecuencias de mis decisiones cotidianas.</p>
+
+                    <h5>Familiar</h5>
+                    <p>Tomar decisiones que promuevan la paz, la organización y el bienestar en el hogar.</p>
+
+                    <h5>Laboral</h5>
+                    <p>Resolver problemas con criterio práctico y evitar conflictos innecesarios a través del diálogo y
+                        la razón.</p>
+
+                    <h4>Frase de compromiso final</h4>
+                    <p><em>“El sentido común es la sabiduría puesta en práctica.”</em></p>
+                </div>
+
+                <!-- DOMINIO PROPIO -->
+                <div id="dominio" class="subcontent">
+                    <h3>Voto de Dominio Propio</h3>
+                    <p><strong>Propósito:</strong> Controlar mis impulsos, emociones y deseos para actuar con
+                        equilibrio, serenidad y sabiduría en cualquier circunstancia.</p>
+
+                    <h4>Ámbitos de aplicación</h4>
+                    <h5>Personal</h5>
+                    <p>Mantener la calma ante situaciones de estrés o enojo, eligiendo respuestas conscientes y no
+                        impulsivas.</p>
+
+                    <h5>Familiar</h5>
+                    <p>Responder con paciencia ante conflictos familiares, fomentando la armonía y el respeto.</p>
+
+                    <h5>Laboral</h5>
+                    <p>Conservar la profesionalidad y la calma ante la presión o las críticas, enfocándome en soluciones
+                        constructivas.</p>
+
+                    <h4>Frase de compromiso final</h4>
+                    <p><em>“Quien domina sus emociones, domina su destino.”</em></p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- REFLEXIONES -->
+        <section id="reflexiones" class="tabcontent">
+            <div class="content-card">
+                <h2>Reflexiones: La vida no es lo que te imaginas</h2>
+                <div class="subtabs">
+                    <button onclick="openSubtab(event, 'cap1', 'reflexiones')">Capítulo 1</button>
+                    <button onclick="openSubtab(event, 'cap2', 'reflexiones')">Capítulo 2</button>
+                    <button onclick="openSubtab(event, 'cap3', 'reflexiones')">Capítulo 3</button>
+                    <button onclick="openSubtab(event, 'cap4', 'reflexiones')">Capítulo 4</button>
+                    <button onclick="openSubtab(event, 'cap5', 'reflexiones')">Capítulo 5</button>
+                    <button onclick="openSubtab(event, 'cap6', 'reflexiones')">Capítulo 6</button>
+                    <button onclick="openSubtab(event, 'cap7', 'reflexiones')">Capítulo 7</button>
+                    <button onclick="openSubtab(event, 'cap8', 'reflexiones')">Capítulo 8</button>
+                </div>
+
+                <!-- COSMOVISIÓN -->
+                <div id="cap1" class="subcontent">
+                    <h3>Capítulo primero. La cosmovisión</h3>
+                    <p><strong>Contexto:</strong> La cosmovisión representa la manera en que interpretamos el mundo, la
+                        vida y nuestro propósito en él. Está influenciada por nuestra cultura, educación, fe y
+                        experiencias personales.</p>
+                    <p><strong>Influencia en tu forma de pensar:</strong> Comprender mi propia cosmovisión me ayudó a
+                        reconocer los valores que guían mis decisiones y cómo estos afectan mi percepción de los demás y
+                        del entorno.</p>
+                    <p><strong>Cambios en tu estilo de vida:</strong> Empecé a reflexionar con mayor profundidad sobre
+                        el sentido de mis acciones y a buscar coherencia entre mis creencias y mi comportamiento diario.
+                    </p>
+                </div>
+
+                <!-- SABIDURÍA -->
+                <div id="cap2" class="subcontent">
+                    <h3>Capítulo segundo. La sabiduría</h3>
+                    <p><strong>Contexto:</strong> La sabiduría no se trata solo de acumular conocimientos, sino de
+                        aplicar con prudencia lo aprendido para tomar decisiones correctas y justas.</p>
+                    <p><strong>Influencia en tu forma de pensar:</strong> Me impulsó a pensar con más calma antes de
+                        actuar, valorando la experiencia y el consejo de personas con más conocimiento o madurez.</p>
+                    <p><strong>Cambios en tu estilo de vida:</strong> Ahora procuro escuchar más, reflexionar sobre mis
+                        acciones y aprender de cada situación, incluso de los errores.</p>
+                </div>
+
+                <!-- MADUREZ -->
+                <div id="cap3" class="subcontent">
+                    <h3>Capítulo tercero. La madurez</h3>
+                    <p><strong>Contexto:</strong> La madurez implica responsabilidad, equilibrio emocional y la
+                        capacidad de asumir las consecuencias de nuestras decisiones con serenidad.</p>
+                    <p><strong>Influencia en tu forma de pensar:</strong> Me ayudó a entender que no todo se trata de
+                        tener la razón, sino de crecer interiormente y actuar con empatía.</p>
+                    <p><strong>Cambios en tu estilo de vida:</strong> Empecé a ser más paciente, a controlar mis
+                        emociones y a reaccionar con calma ante los problemas cotidianos.</p>
+                </div>
+
+                <!-- PENSAMIENTOS EQUIVOCADOS -->
+                <div id="cap4" class="subcontent">
+                    <h3>Capítulo cuarto. Los pensamientos equivocados</h3>
+                    <p><strong>Contexto:</strong> Los pensamientos equivocados son ideas o creencias que distorsionan la
+                        realidad y nos impiden avanzar, generando emociones negativas o comportamientos dañinos.</p>
+                    <p><strong>Influencia en tu forma de pensar:</strong> Aprendí a identificar los pensamientos
+                        negativos y a reemplazarlos por reflexiones más objetivas y constructivas.</p>
+                    <p><strong>Cambios en tu estilo de vida:</strong> Ahora trato de mantener una mentalidad más
+                        positiva, evitando juicios precipitados y enfocándome en soluciones en lugar de problemas.</p>
+                </div>
+
+                <!-- CONCEPTOS ERRÓNEOS -->
+                <div id="cap5" class="subcontent">
+                    <h3>Capítulo quinto. Los conceptos erróneos</h3>
+                    <p><strong>Contexto:</strong> Los conceptos erróneos surgen de interpretaciones incorrectas o
+                        creencias impuestas que nos alejan de la verdad y del entendimiento profundo.</p>
+                    <p><strong>Influencia en tu forma de pensar:</strong> Me llevó a cuestionar ideas preconcebidas y a
+                        investigar más antes de formar una opinión o juzgar una situación.</p>
+                    <p><strong>Cambios en tu estilo de vida:</strong> Comencé a basar mis decisiones en información
+                        confiable y en el análisis crítico, en lugar de suposiciones o rumores.</p>
+                </div>
+
+                <!-- ACTITUD -->
+                <div id="cap6" class="subcontent">
+                    <h3>Capítulo sexto. La actitud</h3>
+                    <p><strong>Contexto:</strong> La actitud es la disposición interior con la que enfrentamos la vida,
+                        los desafíos y las relaciones con los demás.</p>
+                    <p><strong>Influencia en tu forma de pensar:</strong> Entendí que no siempre puedo controlar lo que
+                        sucede, pero sí cómo reacciono ante ello. La actitud positiva transforma las dificultades en
+                        oportunidades de aprendizaje.</p>
+                    <p><strong>Cambios en tu estilo de vida:</strong> Adopté una mentalidad más optimista y proactiva,
+                        buscando soluciones en lugar de lamentarme por los problemas.</p>
+                </div>
+
+                <!-- RELACIONES -->
+                <div id="cap7" class="subcontent">
+                    <h3>Capítulo séptimo. Las relaciones</h3>
+                    <p><strong>Contexto:</strong> Las relaciones humanas son el pilar de la convivencia. A través de
+                        ellas aprendemos empatía, respeto, perdón y comunicación.</p>
+                    <p><strong>Influencia en tu forma de pensar:</strong> Comprendí que las relaciones sanas se
+                        construyen con confianza, escucha y sinceridad, no con imposiciones o apariencias.</p>
+                    <p><strong>Cambios en tu estilo de vida:</strong> Empecé a cuidar más mis vínculos, a expresar
+                        gratitud y a resolver conflictos de manera pacífica y dialogada.</p>
+                </div>
+
+                <!-- FAMILIA -->
+                <div id="cap8" class="subcontent">
+                    <h3>Capítulo octavo. La familia</h3>
+                    <p><strong>Contexto:</strong> La familia es el primer entorno donde aprendemos valores, respeto,
+                        amor y responsabilidad. Es la base de nuestra formación emocional y moral.</p>
+                    <p><strong>Influencia en tu forma de pensar:</strong> Me hizo valorar el papel fundamental que mi
+                        familia tiene en mi crecimiento personal y en la formación de mi carácter.</p>
+                    <p><strong>Cambios en tu estilo de vida:</strong> Decidí fortalecer los lazos familiares, dedicar
+                        más tiempo a la convivencia y mostrar más empatía hacia cada integrante.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- DISCURSO FINAL -->
+        <section id="discurso" class="tabcontent">
+            <div class="content-card">
+                <h2>Discurso final</h2>
+                <p>
+                    A lo largo de este proyecto ético he recorrido un camino de reflexión, aprendizaje y crecimiento
+                    personal. Cada tema abordado me permitió mirar dentro de mí, reconocer mis fortalezas y debilidades,
+                    y comprender la importancia de actuar siempre desde los valores que dan sentido a la vida: la
+                    honestidad, la empatía, la responsabilidad y el respeto.
+                </p>
+                <p>
+                    He aprendido que la ética no se limita a conceptos o teorías, sino que se manifiesta en nuestras
+                    decisiones cotidianas, en la forma en que tratamos a los demás y en cómo enfrentamos los desafíos.
+                    Este proceso me ayudó a desarrollar una conciencia más crítica, a fortalecer mi carácter y a valorar
+                    la coherencia entre lo que pienso, digo y hago.
+                </p>
+                <p>
+                    Cada experiencia reflejada en este proyecto me impulsó a ser una mejor persona, a comprender que los
+                    valores no solo construyen mi identidad, sino que también influyen positivamente en mi entorno.
+                    Aprendí a comunicarme con respeto, a perdonar, a mantener la calma en los momentos difíciles y a
+                    confiar en que actuar con integridad siempre deja huellas valiosas.
+                </p>
+                <p>
+                    Hoy puedo decir que este trabajo no solo representa un requisito académico, sino un compromiso real
+                    con mi crecimiento humano. A partir de ahora, deseo seguir aplicando estos principios en mi vida
+                    diaria, inspirando a otros a hacerlo también y recordando que la ética no se enseña con palabras,
+                    sino con el ejemplo.
+                </p>
+                <p><em>“Ser ético es elegir hacer el bien, incluso cuando nadie está mirando.”</em></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Proyecto Ético — Williams Yos</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Mostrar solo la portada al cargar la página
+        window.onload = () => {
+            const sections = document.getElementsByClassName("tabcontent");
+            for (let i = 0; i < sections.length; i++) sections[i].style.display = "none";
+            document.getElementById("inicio").style.display = "block";
+        };
+    </script>
+</body>
+
+</html>
